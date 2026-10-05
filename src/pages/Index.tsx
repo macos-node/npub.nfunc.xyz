@@ -424,7 +424,7 @@ export default function Index() {
           <a href="https://nfunc.xyz" className="font-mono text-[11px] sm:text-[12px] text-muted-foreground/50 hover:text-primary transition-colors shrink-0">nfunc</a>
           {(() => {
             // The nfunc.xyz subdomains that exist; a new one is added here in every nfunc fork.
-            const SUBS = ['glmps','npub'] as const;
+            const SUBS = ['glmps','npub','pls'] as const;
             const cur = SUBS.find((s) => window.location.hostname === `${s}.nfunc.xyz`);
             return <>
               {cur && <span className="font-mono text-[11px] sm:text-[12px] text-primary whitespace-nowrap shrink-0 cursor-default">{cur}</span>}
