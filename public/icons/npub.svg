@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="npub — profiles">
+  <!-- Avatar: head + shoulders -->
+  <circle cx="32" cy="24" r="9" fill="#c6c6cc"/>
+  <path d="M 16 50 C 16 39, 22 35, 32 35 C 42 35, 48 39, 48 50 Z" fill="#c6c6cc"/>
+  <!-- Nostr key accent dot -->
+  <circle cx="48" cy="18" r="4" fill="#e8e8ec"/>
+</svg>
