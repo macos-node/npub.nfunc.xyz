@@ -114,7 +114,7 @@ function useUserProfile(pubkey: string | null) {
   useEffect(() => {
     if (!pubkey) { setProfile(null); return; }
     setProfile(null);
-    const relays = ['wss://relay.nfunc.xyz', 'wss://relay.fizx.uk'];
+    const relays = ['wss://relay.nfunc.xyz'];
     const sockets: WebSocket[] = [];
     let latestTs = 0;
     relays.forEach(url => {
@@ -456,7 +456,7 @@ export default function Index() {
             </div>
             <div className="hidden sm:block shrink-0">
               <RelayStats
-                urls={['wss://relay.nfunc.xyz', 'wss://relay.fizx.uk']}
+                urls={['wss://relay.nfunc.xyz']}
                 filter={{ kinds: [0], limit: 50 }}
                 writable={false}
               />
